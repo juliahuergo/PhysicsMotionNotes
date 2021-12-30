@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>La física del movimiento</title>
+		<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+		<link rel = "stylesheet" href = "https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&amp;family=Meow+Script&amp;family=Righteous&amp;family=Shizuru&amp;display=swap">
+		<style>
+			#navbar header {
+			font-family: "Josefin Sans";
+			color: purple; 
+			font-size: 2.0em; 
+			}  
+			p{
+			font-family: "Josefin Sans";
+			}
+			@media (min-width: 100px){
+			#navbar{
+			position: fixed;
+			min-width: 290px;
+			top: 0px;
+			left: 0px;
+			width: 300px;
+			height: 100%;
+			border-right: solid;
+			border-color: grey;
+			}
+			#navbar li{
+			list-style: none;
+			border-top: 1px solid;
+			color: grey; 
+			position: relative; 
+			width: 100%;
+			} 
+			#navbar ul{
+			height: 88%;
+			padding: 0;
+			overflow-y: auto;
+			overflow-x: hidden;
+			}
+			#navbar a{
+			display: block;
+			padding: 10px 10px; 
+			cursor: pointer; 
+			text-decoration: none; 
+			color: black; 
+			}
+			}
+			main{
+			padding-left: 310px; 
+			}
+			header{
+			font-size: 30px; 
+			font-family: "Josefin Sans";
+			color: purple; 
+			}
+			code{
+			border-top: 1px solid grey; 
+			border-left: 1px solid grey;
+			border-right: 1px solid grey;
+			border-bottom: 1px solid grey;
+			}
+			ul{
+			font-family: "Josefin Sans";
+			}
+		</style>
+	</head>
+	<body>
+		<nav id="navbar">
+			<header>
+				La física del movimiento
+			</header>
+			<ul>
+				<li>
+					<a class="nav-link" href="#La_base">La base</a>
+				</li>
+				<li>
+					<a class="nav-link" href="#MRU">El movimiento rectilíneo uniforme</a>
+				</li>
+				<li>
+					<a class="nav-link" href="#MRUA">El movimiento rectilíneo uniformemente acelerado</a>
+				</li>
+				<li>
+					<a class="nav-link" href="#MCU">El movimiento circular uniforme</a>
+				</li>
+				<li>
+					<a class="nav-link" href="#MCUA">El movimiento circular uniformemente acelerado</a>
+				</li>
+			</ul>
+		</nav>
+		<main id="main-doc">
+			<section class="main-section" id="La_base">
+				<header>La base</header>
+				<p>Es un poco absurdo pensar en que nosotros seríamos capaces de movernos en una circunferencia o recta perfecta a la misma velocidad o aceleración durante más de medio minuto, como mucho, pero, con el fin de poder explicar los principios del movimiento uniforme usaré dichos casos hipotéticos para referirme a lo que humildemente llamo: la física del movimiento. </p>
+				<p>Y es que, aunque la física realmente sea el estudio del movimiento en infinidad de ámbitos y modos, pretendo explicar la mayor de las simplicidades con respecto al movimiento con el fin de tener un poco de cultura científica y de visión para aquellos que buscan aprobar su próximo examen o para aquellos curiosos, que en indagar sobre el mundo que les rodea, se transportan a un mundo paralelo de disfrute.</p>
+			</section>
+			<section class="main-section" id = "MRU">
+				<header>El movimiento rectilíneo uniforme</header>
+				<p>¿Os imagináis poder caminar en línea recta y a una velocidad constante? Yo tampoco, pero con el propósito anteriormente expuesto, os explicaré en qué consiste este primer movimiento. </p>
+				<p>Antes de nada, hay que entender que la velocidad no es simplemente lo que se conoce como la distancia que recorres en cierto periodo de tiempo; esta medida es simplemente uno de los tres “factores” que definen esta magnitud, los otros dos son: la dirección y el sentido.</p>
+				<ul>
+					<li>La dirección es simplemente la trayectoria que tu movimiento está dibujando, es decir, la calle, acera, carretera, por la que te estás moviendo o estando en reposo.</li>
+					<li>El sentido es, dentro de la dirección, el ángulo en el que te estás dirigiendo, es decir, si estás yendo a la derecha, al frente, hacia atrás, etc.</li>
+				</ul>
+				<p>Por ello, tu velocidad no es simplemente que estés circulando a medio metro por segundo, es también que estás recorriendo el pasillo de tu casa de derecha a izquierda y, al ser un movimiento rectilíneo uniforme en este caso, lo estarías haciendo en línea recta y a velocidad constante, es decir, que ninguno de los tres factores mencionados es cambiado.</p>
+				<p>Entendemos que la velocidad y, en particular, el factor del módulo (es decir, el número designado en el vector de velocidad) es el cociente entre el desplazamiento (la resta entre la posición final y la inicial) y el tiempo empeñado en realizar esta acción, descrito así:</p>
+				<code>v = desplazamiento/tiempo </code>
+				<p>A través de esta fórmula, podemos obtener otras como que la posición final (x) es igual a la posición inicial (xo) más la velocidad empleada por el tiempo empeñado, es decir, se le suma a la posición donde se empieza la distancia recorrida para saber la posición en la que finaliza el movimiento; descrito así:</p>
+				<code>
+				x = xo + vt
+				</code>
+				<p>Teniendo todo esto en cuenta, a la hora de representar las gráficas propias del movimiento rectilíneo uniforme (MRU) o de analizar si otras lo son, podemos deducir que la gráfica de desplazamiento-tiempo o, lo que es igual, de x(m) y t(s), es una recta de mayor o menor pendiente que puede partir o no del origen pero que es recta.</p>
+			</section>
+			<section class="main-section" id = "MRUA">
+				<header>El movimiento rectilíneo uniformemente acelerado</header>
+				<p>Este tipo de movimiento también ocurre en línea recta pero, en este caso, la velocidad no es constante, sino que aumenta o disminuye de forma constante, es decir, tiene una aceleración (negativa o positiva) constante. </p>
+				<p>Por ello, podemos obtener las siguientes fórmulas:</p>
+				<ul>
+					<li>Sabemos que la aceleración (tangencial en este caso) se calcula mediante el cociente entre la velocidad final menos la velocidad inicial y el tiempo empleado. Descrito así:</li>
+					<code>a = (vf-vo)/t</code>
+					<li>La fórmula de la posición se obtiene mediante la igualación entre la definición general de velocidad media y la deducida mediante la sustitución de la definición de velocidad final en la ecuación de velocidad media:</li>
+					<code>x = xo + vot + 1/2at^2</code>
+				</ul>
+				<p>Teniendo todo esto en cuenta, podemos deducir que las gráficas que describen el movimiento rectilíneo uniformemente acelerado (MRUA) son las siguientes: para desplazamiento frente a tiempo, es una parábola; para velocidad frente a tiempo es una línea recta creciente o decreciente; y para aceleración frente a tiempo es una línea con pendiente cero pero con la y mayor o menor que 0.</p>
+			</section>
+			<section class="main-section" id = "MCU">
+				<header>El movimiento circular uniforme</header>
+				<p>En este caso, el movimiento que se describe no es una línea recta, sino una circunferencia. Pero, la velocidad es constante, ¿verdad?. Pues no, aunque pensemos eso, hay que salirnos otra vez más de la incorrecta definición de velocidad, y es que, aunque sigamos yendo a 4 metros por segundo de forma constante, la velocidad no tiene que ser la misma que si fuésemos a 4 metros por segundo pero en otra dirección o sentido.</p>
+				<p>En el caso del movimiento circular uniforme (MCU), el movimiento de una circunferencia tiene el mismo módulo de velocidad, pero su sentido y dirección están en constante cambio al no ser una línea recta. Por ello, decimos que es uniforme en el módulo de su velocidad pero no en sentido ni dirección.</p>
+				<p>Repaso de los tipos de aceleración:</p>
+				<ul>
+					<li>Tangencial: esta es mayor o menor que 0 cuando cambia el módulo de la velocidad. Es descrita como la velocidad final menos la original todo ello partido por el tiempo empleado.</li>
+					<code>at = (vf – vo)/t</code>
+					<li>Normal o centrípeta: esta es en la que varía la dirección y el sentido de la velocidad. Es descrita como velocidad al cuadrado partida por el radio de la circunferencia trazada por el movimiento. </li>
+					<code>ac = v^2/r</code>
+					<li>Angular: esta la estudiaremos más a fondo en el siguiente apartado, pero es en la que varían los tres factores de la velocidad: módulo, dirección y sentido. Es descrita de varias formas dependiendo de la fórmula en la que la despejes. Pero, por ejemplo, puede ser obtenida como la variación en velocidad angular y el tiempo empleado.</li>
+					<code>α = (wf-wo)/t</code>
+				</ul>
+				<p>Teniendo todo esto en cuenta, podemos decir que al no variar su módulo, el MCU sólo tiene aceleración centrípeta o normal ya que sí varía su dirección y sentido.</p>
+				<p>El resto de fórmulas para este movimiento son las siguientes:</p>
+				<ul>
+					<li>La relación entre el espacio recorrido y el ángulo barrido en radianes, utilizamos la siguiente fórmula (el espacio recorrido es igual al ángulo barrido multiplicado por el radio de la circunferencia trazada):</li>
+					<code>s = φr</code>
+					<li>La velocidad angular es el espacio angular recorrido partido por el tiempo empleado:</li>
+					<code>w = φ/t</code>
+					<li>La ecuación de la posición es la siguiente (la misma que para la posición lineal pero en magnitudes angulares):</li>
+					<code>x = xo + wt</code>
+					<li>El período es el tiempo que tarda en dar una vuelta; por ello, se dice que es igual a 2 pi (la conversión de radianes a vueltas) partido por la velocidad angular:</li>
+					<code>T = 2π/w</code>
+					<li>La frecuencia son las vueltas, o fracción de vuelta, que da en un segundo. Es decir, es la inversa del período.</li>
+					<code>f = 1/T</code>
+				</ul>
+				<p>La relación entre magnitudes lineales y angulares es la siguiente:</p>
+				<ul>
+					<li>La velocidad lineal es igual a la velocidad angular multiplicada por el radio de la circunferencia trazada.</li>
+				</ul>
+			</section>
+			<section class="main-section" id = "MCUA">
+				<header>El movimiento circular uniformemente acelerado</header>
+				<p>Este tipo de movimiento es caracterizado por el trazado de una circunferencia y una aceleración angular constante. A su vez, podemos decir que tiene las tres aceleraciones al variar en módulo, dirección y sentido.</p>
+				<p>Las ecuaciones del MCUA son las siguientes (iguales a las del MRUA pero con magnitudes angulares en vez de lineales):</p>
+				<ul>
+					<li>La ecuación de posición es la siguiente:</li>
+					<code>φ = φo + wo – 1/2αt^2</code>
+					<li>La ecuación de velocidad angular, de aceleración angular, etc. dependiendo de lo que despejes es la siguiente:</li>
+					<code>w = wo + αt</code>
+				</ul>
+				<p>La relación entre magnitudes angulares y lineales es:</p>
+				<ul>
+					<li>La aceleración tangencial es igual a la angular multiplicada por el radio de la circunferencia trazada:</li>
+					<code>at = αr</code>
+				</ul>
+			</section>
+		</main>
+	</body>
+</html>
